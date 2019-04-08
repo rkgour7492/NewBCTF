@@ -3,14 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestMethod">
+      <class name="FireFoxTC">
         <methods>
-          <include name="initDriver"/>
           <include name="welcomePage_shouldLookGood_onDesktopDevice"/>
+          <include name="initDriver"/>
           <include name="initReport"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- TestMethod -->
+      </class> <!-- FireFoxTC -->
+      <class name="ChromeTC">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="quitDriver"/>
+          <include name="welcomePage_shouldLookGood_onDesktopDevice"/>
+        </methods>
+      </class> <!-- ChromeTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

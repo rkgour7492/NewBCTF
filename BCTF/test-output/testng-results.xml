@@ -1,43 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16987" started-at="2019-04-02T19:16:27Z" finished-at="2019-04-02T19:16:44Z">
+  <suite name="Default suite" duration-ms="47541" started-at="2019-04-08T20:11:13Z" finished-at="2019-04-08T20:12:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16987" started-at="2019-04-02T19:16:27Z" finished-at="2019-04-02T19:16:44Z">
-      <class name="TestMethod">
-        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:TestMethod@1fdc050]" name="initDriver" is-config="true" duration-ms="6666" started-at="2019-04-03T00:46:27Z" finished-at="2019-04-03T00:46:34Z">
+    <test name="Default test" duration-ms="47541" started-at="2019-04-08T20:11:13Z" finished-at="2019-04-08T20:12:01Z">
+      <class name="InternetExplorerTC">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:InternetExplorerTC@25b2fe]" name="initDriver" is-config="true" duration-ms="2879" started-at="2019-04-09T01:41:14Z" finished-at="2019-04-09T01:41:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7216cd]]>
+                <![CDATA[[Ljava.lang.Object;@1800468]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:TestMethod@1fdc050]" name="initReport" is-config="true" duration-ms="13" started-at="2019-04-03T00:46:34Z" finished-at="2019-04-03T00:46:34Z">
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:InternetExplorerTC@25b2fe]" name="initReport" is-config="true" duration-ms="7" started-at="2019-04-09T01:41:17Z" finished-at="2019-04-09T01:41:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestMethod.welcomePage_shouldLookGood_onDesktopDevice() throws java.io.IOException]]>
+                <![CDATA[public void InternetExplorerTC.welcomePage_shouldLookGood_onDesktopDevice(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method status="PASS" signature="welcomePage_shouldLookGood_onDesktopDevice()[pri:0, instance:TestMethod@1fdc050]" name="welcomePage_shouldLookGood_onDesktopDevice" duration-ms="9456" started-at="2019-04-03T00:46:34Z" finished-at="2019-04-03T00:46:43Z">
+        <test-method status="PASS" signature="welcomePage_shouldLookGood_onDesktopDevice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:InternetExplorerTC@25b2fe]" name="welcomePage_shouldLookGood_onDesktopDevice" duration-ms="2548" started-at="2019-04-09T01:41:17Z" data-provider="UrlAndResolution" finished-at="2019-04-09T01:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://eag.synechron.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1028]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[726]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[homepage.spec]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePage_shouldLookGood_onDesktopDevice -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestMethod@1fdc050]" name="quitDriver" is-config="true" duration-ms="796" started-at="2019-04-03T00:46:43Z" finished-at="2019-04-03T00:46:44Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:InternetExplorerTC@25b2fe]" name="quitDriver" is-config="true" duration-ms="534" started-at="2019-04-09T01:41:19Z" finished-at="2019-04-09T01:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- TestMethod -->
+      </class> <!-- InternetExplorerTC -->
+      <class name="ChromeTC">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:ChromeTC@6ba0ac]" name="initDriver" is-config="true" duration-ms="5138" started-at="2019-04-09T01:41:46Z" finished-at="2019-04-09T01:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@185cd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:ChromeTC@6ba0ac]" name="initReport" is-config="true" duration-ms="0" started-at="2019-04-09T01:41:51Z" finished-at="2019-04-09T01:41:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ChromeTC.welcomePage_shouldLookGood_onDesktopDevice(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="welcomePage_shouldLookGood_onDesktopDevice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ChromeTC@6ba0ac]" name="welcomePage_shouldLookGood_onDesktopDevice" duration-ms="9139" started-at="2019-04-09T01:41:51Z" data-provider="UrlAndResolution" finished-at="2019-04-09T01:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://eag.synechron.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1028]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[726]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[homepage.spec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood_onDesktopDevice -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:ChromeTC@6ba0ac]" name="quitDriver" is-config="true" duration-ms="801" started-at="2019-04-09T01:42:00Z" finished-at="2019-04-09T01:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- ChromeTC -->
+      <class name="FireFoxTC">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:FireFoxTC@14ba872]" name="initDriver" is-config="true" duration-ms="9699" started-at="2019-04-09T01:41:20Z" finished-at="2019-04-09T01:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1a1da6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="welcomePage_shouldLookGood_onDesktopDevice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FireFoxTC@14ba872]" name="welcomePage_shouldLookGood_onDesktopDevice" duration-ms="12914" started-at="2019-04-09T01:41:30Z" data-provider="UrlAndResolution" finished-at="2019-04-09T01:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://eag.synechron.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1028]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[726]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[homepage.spec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood_onDesktopDevice -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method)[pri:0, instance:FireFoxTC@14ba872]" name="initReport" is-config="true" duration-ms="0" started-at="2019-04-09T01:41:30Z" finished-at="2019-04-09T01:41:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FireFoxTC.welcomePage_shouldLookGood_onDesktopDevice(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:FireFoxTC@14ba872]" name="quitDriver" is-config="true" duration-ms="2818" started-at="2019-04-09T01:41:43Z" finished-at="2019-04-09T01:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- FireFoxTC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
